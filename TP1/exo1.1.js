@@ -55,3 +55,25 @@
 //     circle(mouseX, mouseY, 20);
 //  }
 
+/**
+ * Exercice 1.1 : d
+ * 
+ */
+
+function setup() {
+    
+
+    // Crée un canvas de la taille de la fenêtre
+    createCanvas(windowWidth, windowHeight);
+
+
+    // Met la valeur de fond à 100
+    background(125,125,0);
+    
+ }
+ 
+ 
+ function draw() {
+    // Crée un cercle de la taille 20 à la position de la souris
+    circle(windowWidth/2, windowHeight/2, 100);
+ }
