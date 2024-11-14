@@ -10,7 +10,7 @@ function setup() {
       for (let i = 25; i < width - 25; i += 25) {
          let r = 0
          if ((i > width / 3) && (i < 2 * width / 3)) {
-            r = random(3, heightMax);
+            r = random(3, heightMax * noise(i / 10));
          }
          curveVertex(i, x - r)
       }
